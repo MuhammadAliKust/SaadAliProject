@@ -7,12 +7,12 @@ class NotificationScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Notification Screen"),
+          title: const Text("Notification Screen"),
         ),
         body: ListView.builder(
             itemCount: 1,
             itemBuilder: (context, i) {
-              return ListTile(
+              return const ListTile(
                 leading: Icon(Icons.notifications),
                 title: Text("Notification Title"),
                 subtitle: Text("Notification Sub Title"),
