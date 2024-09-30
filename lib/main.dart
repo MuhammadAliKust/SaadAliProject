@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:saad_ali/assets_image.dart';
 import 'package:saad_ali/login_view.dart';
+import 'package:saad_ali/multiple_selection.dart';
 import 'package:saad_ali/network_image.dart';
 import 'package:saad_ali/notification_screen.dart';
 import 'package:saad_ali/single_selection_view.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SingleSelectionView(),
+      home: MultipleSelectionView(),
     );
   }
 }
