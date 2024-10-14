@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:saad_ali/assets_image.dart';
+import 'package:saad_ali/bottom_nav_bar.dart';
 import 'package:saad_ali/dynamic_list_view.dart';
 import 'package:saad_ali/login_view.dart';
 import 'package:saad_ali/multiple_selection.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PageViewBuilderDemo(),
+      home: BottomNavBarView(),
     );
   }
 }
