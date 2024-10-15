@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:saad_ali/login_view.dart';
-import 'package:saad_ali/notification_screen.dart';
 import 'package:saad_ali/single_selection_view.dart';
+
+import 'login_view.dart';
+import 'notification_screen.dart';
 
 class BottomNavBarView extends StatefulWidget {
   const BottomNavBarView({super.key});
