@@ -4,6 +4,7 @@ import 'package:saad_ali/bottom_nav_bar.dart';
 import 'package:saad_ali/bottom_sheet.dart';
 import 'package:saad_ali/dialog_box.dart';
 import 'package:saad_ali/dynamic_list_view.dart';
+import 'package:saad_ali/google_maps.dart';
 import 'package:saad_ali/grid_view_demo.dart';
 import 'package:saad_ali/login_view.dart';
 import 'package:saad_ali/multiple_selection.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GridViewDemo(),
+      home: GoogleMapsView(),
     );
   }
 }
