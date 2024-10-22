@@ -11,6 +11,7 @@ import 'package:saad_ali/multiple_selection.dart';
 import 'package:saad_ali/network_image.dart';
 import 'package:saad_ali/notification_screen.dart';
 import 'package:saad_ali/page_view_builder.dart';
+import 'package:saad_ali/screen_a.dart';
 import 'package:saad_ali/single_selection_view.dart';
 import 'package:saad_ali/tabbar_view.dart';
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GoogleMapsView(),
+      home: ScreenA(),
     );
   }
 }
